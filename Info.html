@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Personal Contact Information and Feedback</title>
+      <link rel="stylesheet" href="prj_1.css">
+   </head>
+   <nav role= "navigation" class="top-nav">
+    <body>
+         <ul>
+            <a href = "index.html"> <li tabindex=0>  Home </li></a>
+            <a href = "Project_1.html"> <li tabindex=1>  Project 1 </li></a>
+            <a href = "Bio.html"> <li tabindex=2> Bio </li> </a>
+            <a href = "Resume.html"> <li tabindex=3> Resume </li> </a>
+            <a href = "Info.html"> <li tabindex=4> Contact Information/Feedback </li> </a>
+         </ul> 
+      </body> 
+   </nav>
+      <main>
+         <h1 class= "info_head">Personal Contact Information</h1>
+         <div class="description">
+            <p>Phone Number: 217-550-8300</p>
+            <p>Email: CatherineGuo2025@u.northwestern.edu</p>
+            <p>Grade: Sophomore</p>
+            <p>Dorm: Sargent</p>
+        </div>
+        <div class="form">
+            <form>
+            <h1 class= "info_head">Form:</h1>
+            <fieldset>
+                <legend class="form_title">Personal Information:</legend>
+                <div>
+                    <label for="firstname">Name (required):</label><br>
+                    <input type="text" name="name" id="name" required aria-required="true">
+                </div>
+              <div>
+                <br>
+                <label for="number">Phone Number (required):</label><br>
+                <input type="tel" name="number" id="number" placeholder="ex. 012-345-6789" required aria-required="true"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+              </div>
+              <div>
+                <label for="email">Email (required):</label><br>
+                <input type="email" name="email" id="email" required aria-required="true">
+            </div>
+            </fieldset>
+    
+            <fieldset>
+            <legend class="form_title">Grade (required):</legend>
+            <div>
+                <input type="checkbox" name="fresh" id="fresh">
+                <label for="grade">Freshman</label><br>
+            </div>
+            <div>
+                <input type="checkbox" name="soph" id="soph">
+                <label for="grade">Sophomore</label><br>
+            </div>
+            <div>
+                <input type="checkbox" name="jun" id="jun">
+                <label for="grade">Junior</label><br>
+            </div>
+            <div>
+                <input type="checkbox" name="sen" id="sen">
+                <label for="grade">Senior</label><br>
+            </div>
+            <div>
+                <input type="checkbox" name="other" id="other">
+                <label for="grade">Other</label>
+                <br>
+            </div>
+            </fieldset>
+            <fieldset>
+                <legend class="form_title">Feedback:</legend>
+                <div>
+                    <label for="improvement">Suggestions for Improvement:</label><br>
+                    <input type="text" name="improvement" id="feedback">
+                </div>
+              <div>
+                <br>
+                <label for="feedback">Additional Feedback:</label><br>
+                <input type="text" name="feedback" id="feedback"><br><br>
+              </div>
+            </fieldset>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+      </main>
+</html>

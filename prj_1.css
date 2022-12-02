@@ -1,0 +1,82 @@
+.header {
+    font-size: 30px;
+    font-family: fantasy;
+}
+.description {
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: normal;
+}
+.images {
+    display:flex;
+	flex-direction: row;
+    width : 250px;
+	height: 250px;
+}
+.pic {
+    padding: 20px;
+}
+.swarm_dcp {
+    display:flex;
+	flex-direction: row;
+}
+.dcp1 {
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: normal;
+    width : 300px;
+	height: 100px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.bio_pic_1 {
+    width : 400px;
+	height: 250px;
+}
+.bio_pic_2 {
+    width : 900px;
+	height: 300px;
+}
+.top-nav{
+    background-color: #AFEEEE;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px blue;
+}
+[aria-current=page]{
+    background-color: #bbb;
+    color:#000;
+    border-bottom: .25em solid;
+}
+main {
+    margin-top: 100px;
+    margin-left: 2em;
+}
+.top-nav li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+}
+.top-nav li:hover{
+    text-decoration: underline;
+}
+.top-nav ul{
+    list-style: none;
+    
+}
+#feedback {
+    width: 400px;
+    height:200px;
+}
+.info_head {
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+.form_title {
+    font-weight: bold;
+}
